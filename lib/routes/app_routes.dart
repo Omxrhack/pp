@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pp/models/menu_options.dart';
+import 'package:pp/screens/login.dart';
 import 'package:pp/screens/screen.dart';
 
 class AppRoute {
@@ -9,6 +10,18 @@ class AppRoute {
       route: 'HomeScreen',
       title: 'HomeScreen',
       screen: const HomeScreen(),
+      icon: Icons.list,
+    ),
+    MenuOptions(
+      route: 'RegisterScreen',
+      title: 'RegisterScreen',
+      screen: const RegisterScreen(),
+      icon: Icons.list,
+    ),
+    MenuOptions(
+      route: 'LoginScreen',
+      title: 'LoginScreen',
+      screen: const LoginScreen(),
       icon: Icons.list,
     ),
   };

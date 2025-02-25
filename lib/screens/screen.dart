@@ -2,3 +2,4 @@
 
 export 'package:pp/screens/error.dart';
 export 'package:pp/screens/home.dart';
+export 'package:pp/screens/register.dart';
